@@ -20,6 +20,8 @@ namespace ConsolaGit
             };
              clientes.CalcularEdad();
             Console.WriteLine($"La edad de {clientes.Nombre} es de {clientes.Edad} años"  );
+            clientes.LimpiarTerminal();
+            clientes.Venta();
             Console.ReadLine();
         }
     }

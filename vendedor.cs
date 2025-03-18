@@ -9,5 +9,10 @@ namespace miProyectoConGitandVisualStudio
     {
         public string Zona { get; set; }
         public string Ciudad { get; set; }
+
+        public void GenerarVenta()
+        {
+            Console.WriteLine( "venta generada con exito");
+        }
     }
 }

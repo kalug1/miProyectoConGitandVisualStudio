@@ -27,6 +27,11 @@ namespace miProyectoConGitandVisualStudio
             Console.WriteLine(  "Limpiando terminal");
             Console.Clear();
         }
+        public void Venta()
+        {
+            Vendedor vendedor = new Vendedor(); 
+            vendedor.GenerarVenta();
+        }
 
     }
 }
