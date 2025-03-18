@@ -7,5 +7,7 @@ namespace miProyectoConGitandVisualStudio
 {
     class Vendedor:Persona
     {
+        public string Zona { get; set; }
+        public string Ciudad { get; set; }
     }
 }
